@@ -1,0 +1,132 @@
+@import url("https://fonts.cdnfonts.com/css/roboto");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  padding-right: 100px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 1px solid rgb(224, 224, 224);
+  background: rgb(251, 251, 251);
+}
+
+td {
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.img-box {
+  display: flex;
+}
+
+img {
+  margin-right: 20px;
+}
+
+button {
+  border: none;
+  color: rgb(59, 113, 202);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  background: none;
+}
+
+button:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.status-style {
+  border: 2px;
+  border-radius: 30px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.orange {
+  background: rgb(251, 240, 218);
+  color: rgb(115, 81, 13);
+}
+
+.blue {
+  background: rgb(223, 231, 246);
+  color: rgb(44, 88, 160);
+}
+
+.green {
+  background: rgb(214, 240, 224);
+  color: rgb(13, 104, 50);
+}
+
+th {
+  color: rgb(79, 79, 79);
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-weight: 500;
+  line-height: 160%;
+}
+
+.img-box > div p:nth-of-type(1) {
+  color: rgb(79, 79, 79);
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-weight: 700;
+  line-height: 160%;
+}
+
+.img-box > div p:nth-of-type(2) {
+  color: rgb(117, 117, 117);
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+tr td:nth-of-type(4) {
+  color: rgb(79, 79, 79);
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+tr td:nth-of-type(2) p {
+  color: rgb(79, 79, 79);
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+tr td:nth-of-type(2) p:nth-of-type(2) {
+  color: rgb(117, 117, 117);
+  font-family: Roboto;
+  font-size: 14.4px;
+  font-weight: 400;
+  line-height: 160%;
+}
